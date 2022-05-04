@@ -1,4 +1,5 @@
 ﻿using System;
+using Cse210_Unit02_Ta;
 
 namespace Cse210_Unit02_Ta
 {
@@ -6,7 +7,11 @@ namespace Cse210_Unit02_Ta
     {
         public static void Main()
         {
-            Console.WriteLine("Welcome to the program.");
+            Address address1 = new Address();
+            address1.Street = "649 S 2nd W";
+            address1.City = "Rexburg";
+            address1.State = "Idaho";
+            address1.DisplayMailingLabel();
         }
     }
 }
