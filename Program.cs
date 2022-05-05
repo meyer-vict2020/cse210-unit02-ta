@@ -12,6 +12,9 @@ namespace Cse210_Unit02_Ta
             address1.City = "Rexburg";
             address1.State = "Idaho";
             address1.DisplayMailingLabel();
+
+            PhoneNumber phoneNumber1 = new PhoneNumber();
+            phoneNumber1.DisplayNumber();
         }
     }
 }
