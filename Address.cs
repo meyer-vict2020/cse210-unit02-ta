@@ -13,7 +13,6 @@ namespace Cse210_Unit02_Ta
         {
             Console.WriteLine($"{Street}");
             Console.WriteLine($"{City}, {State}");
-            phoneNumber1.DisplayNumber();
         }
         
     }

@@ -18,6 +18,7 @@ namespace Cse210_Unit02_Ta
             phoneNumber1.Suffix = "7890";
 
             address1.DisplayMailingLabel();
+            phoneNumber1.DisplayNumber();
 
         }
     }
